@@ -9,19 +9,16 @@ public class DemoController {
 
     @GetMapping("/home")
     public String showHome(){
-        System.out.println(" 1 ");
         return "home";
     }
 
     @GetMapping("/login")
     public String showMyLoginPage(){
-        System.out.println(" 2 ");
         return "login";
     }
 
     @GetMapping("/hello")
-    public  String hello(){
-        System.out.println(" 3 ");
+    public String hello(){
         return "hello";
     }
 }
